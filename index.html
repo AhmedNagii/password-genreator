@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Passpwrd Generatetor</title>
 </head>
-<body>
-    
 
+<body>
+    <h1 class="page_title">Generate a <br>
+        <span id="title_green_part">random Password</span>
+        <br>
+    </h1>
+
+    <p class="user_hint">Never use an insecure password again</p>
+
+    <button onclick="onClick()">
+        <span class="material-symbols-outlined">bolt </span>
+        Generate password</button>
+
+    <div class="break-line"> </div>
+
+    <section class="generate-passwords">
+        <div>
+            <div id="first-passcode" class="password-box"> . . .</div>
+            <div id="second-passcode" class="password-box"> . . .</div>
+        </div>
+        <div>
+            <div id="third-passcode" class="password-box"> . . .</div>
+            <div id="fourth-passcode" class="password-box"> . . .</div>
+        </div>
+    </section>
     <script src="index.js"></script>
 </body>
+
 </html>

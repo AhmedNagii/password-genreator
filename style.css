@@ -1,4 +1,89 @@
-html, body {
-    margin: 0;
+html,
+body {
+
     padding: 0;
+    background-color: #1F2937;
+    color: white;
+    margin: 20px;
+}
+
+.page_title {
+    font-size: 40px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    color: #FFFFFF;
+    letter-spacing: -0.025em;
+    margin-bottom: 0;
+}
+
+#title_green_part {
+    color: #55F991
+}
+
+.user_hint {
+    color: #D5D4D8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 0;
+}
+
+button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    background-color: #55F991;
+    border: none;
+    border-radius: 3px;
+    padding: 6px;
+    color: #FFFFFF;
+    display: flex;
+
+}
+
+.material-symbols-outlined {
+    font-size: 16px;
+}
+
+.break-line {
+    border-bottom: 1px solid #a2a1a7;
+    margin: 20px 0;
+    width: 450px;
+}
+
+.my-class{
+    margin: 30px 30px 30px 0;
+    padding: 10px 0px 0 0;
+    width: 210px;
+    height: 35px;
+    background-color: #273549;
+    text-align: center;
+    border-radius: 5px;
+    color: #202B3C;
+    font-size: 16px;
+    font-weight: 800;
+    color: #55F991;
+}
+
+.generate-passwords{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.password-box {
+    margin: 30px 30px 30px 0;
+    width: 210px;
+    height: 40px;
+    background-color: #273549;
+    text-align: center;
+    border-radius: 5px;
+    color: #202B3C;
+    font-size: 25px;
+    font-weight: 800;
+    color: #202B3C;
 }
