@@ -35,14 +35,14 @@ button {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 100;
+    padding: 5px 5px;
     font-size: 13px;
     background-color: #55F991;
     border: none;
     border-radius: 3px;
-    padding: 6px;
     color: #FFFFFF;
     display: flex;
-
+    vertical-align: middle;
 }
 
 .material-symbols-outlined {
